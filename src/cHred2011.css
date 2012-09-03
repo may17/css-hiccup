@@ -1,0 +1,17 @@
+.rr-headline { font-size: 18px; margin: 10px; padding-bottom: 5px; border-bottom: 1px dashed #ffaf47; }
+.txt-highlight1 { color: #ff9000; }
+.txt-highlight2 { color: #ffaf47; }
+.txt-highlight3 { color: #ffb75a; }
+.txt-highlight4 { color: #ffcb87; }
+
+#rr-center { position: fixed; bottom: 0; float: left; width: 100%; text-align: center; font-size: 12px; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; color: #fff; }
+#rr-wrap { width: 400px; margin: 0 auto; text-align: left; }
+#rr-inner { width: 400px; float: left; background: #951500; border: 1px solid #ff9000; border-bottom: none; padding: 10px; }
+#rr-inner fieldset { border: none; }
+
+.rr-formwrap { float: left; padding: 0 10px; border-right: 1px solid #821200; height: 27px; }
+.rr-formwrap label { padding-right: 5px; }
+.rr-text { border: 1px solid #571200; background: #821200; padding: 4px; }
+#rr-interval    { width: 70px; }
+
+.rr-button { border: 1px solid #ffcb87; background: #ff9000; padding: 3px; cursor: pointer; }
