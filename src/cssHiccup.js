@@ -12,7 +12,7 @@ Function.prototype.bind = function(scope) {
   }
 }
 
-var cssHiccup = function() { this.reloads = 0; this.cssFiles = this.getCSS(); };
+var cssHiccup = function() { this.reloads = 0; this.cssFiles = this.getCSS(); this.tstamp = new Date().getTime(); };
 
 cssHiccup.prototype = {
     /*****************************************************************
@@ -108,7 +108,7 @@ cssHiccup.prototype = {
         {
             var _el = data[_i];
             var _splitUrlParams = _el.getAttribute(attr).split('?');
-            _el.setAttribute('href', _splitUrlParams[0]+'?reload='+this.reloads);
+            _el.setAttribute('href', _splitUrlParams[0]+'?reload='+this.tstamp+'-'+this.reloads);
         }
         this.reloads++;
     },
